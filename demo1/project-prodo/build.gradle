@@ -1,0 +1,9 @@
+
+
+dependencies {
+    compile project(":api")
+    compile 'com.alibaba.boot:dubbo-spring-boot-starter:0.1.0'
+    compile group:'com.101tec',name:'zkclient',version:'0.10'
+    compile "log4j:log4j:1.2.17"
+
+}
